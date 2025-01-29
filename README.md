@@ -1,0 +1,1 @@
+This repository demonstrates a common yet often overlooked error in Python: failing to close files properly.  The 'bug.py' file shows the incorrect code that leaves a file open. The 'bugSolution.py' shows the corrected version.  Always close files using `with open(...)` or ensure you explicitly handle exceptions and close files.
